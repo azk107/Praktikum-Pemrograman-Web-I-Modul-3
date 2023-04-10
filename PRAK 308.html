@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> Membuat Form Pendaftaran </title>
+    </head>
+    <body>
+        <center>
+            <table border="2" width="550px">
+                <tr height="80px" bgcolor=87ceeb>
+                    <td align="center"><font face="Arial" size="5" color="red"><b> Pendaftaran Kursus </b></td>
+                </tr>
+                <tr height="350px" bgcolor="grey">
+                    <td valign="top"><font face="Arial" size="5"><b> Data Diri </b>
+                    <br></br>
+                    <font face="Thimes New Roman" size="3">
+                        Nama &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&hairsp;<input type ="text" name ="nama">
+                        <br>
+                        Nim &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&thinsp;<input type="text" name="nim" value="" maxlength="13">
+                        <br>
+                        E-mail &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;<input type="text" name="email">
+                        <br>
+                        Tanggal Lahir &emsp;&emsp;&emsp;&ensp;&nbsp;&hairsp;&hairsp;<input type="date" name="ttl">
+                        <br>
+                        Jenis Kelamin &emsp;&ensp;&ensp;&emsp;&emsp;<input type="radio" name="jenis_kelamin" value="L"> Laki-laki <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;<input type="radio" name="jenis_kelamin" value="P"> Perempuan
+                        <br>
+                        Pilih Program Kursus  &emsp;<input type="checkbox" name="kursus_1" value="C#"> C#
+                        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;<input type="checkbox" name="kursus_2" value="Java"> Java
+                        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;<input type="checkbox" name="kursus_3" value="SQL"> SQL
+                        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;<input type="checkbox" name="kuruss_4" value="HTML, PHP"> HTML dan PHP
+                        <br>
+                        Pilihan Hari/Jam Kursus
+                        <select>
+                            <option value="sb"> Senin - Rabu/09.00 - 11.00 </option>
+                            <option value="ks"> Kamis - Sabtu/09.00 - 11.00 </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr height="150px" bgcolor="coral">
+                    <td valign="top" style="margin-top:5px; margin-left:3px;">Komentar Anda
+                        <br>
+                        <table cellspacing="8">
+                            <input type="text" name="komentar" style="height:80px; width:400px; margin-top:5px; margin-bottom: 8px; margin-left:2px;">
+                        </table>
+                        <form style="margin-left:2px;">
+                            <input type="reset" value="Reset" name="Ulangi">
+                            <input type="submit" value="Submit" name="Kirim">
+                            <input type="button" value="Cancel" name="Batalkan">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
